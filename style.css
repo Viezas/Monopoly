@@ -1,0 +1,283 @@
+*{
+    font-family: Arial;
+}
+.test{
+    margin: 0 auto;
+    padding: 200px;
+}
+.table{
+    display: grid;
+    grid-template-columns: 125px repeat(9,95px ) 125px;
+    grid-template-rows: 125px repeat(9,95px) 125px;
+    width: 1105px;
+    height: 1105px;
+}
+
+
+div div{
+    border: black 1px solid;
+    text-align: center;
+}
+.center {
+    grid-column: 2 / 11;
+    grid-row: 2 / 11;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+.monopoly{
+    grid-row: 4;
+    grid-column: 1/8;
+    font-size: 80px;
+    letter-spacing: 8px;
+}
+h2{
+    font-size: 12px;
+}
+h1{
+    font-size: 20px;
+}
+p{
+    font-size: 7px;
+}
+.rotate_180{
+    transform: rotate(180deg);
+}
+
+.color_bar{
+    height: 20px;
+    border-bottom: black 2px solid;
+}
+.color_bar2{
+    height: 20px;
+    border-bottom: black 2px solid;
+    transform: translate(65%,151%) rotate(90deg);
+    width: 95px;
+}
+.color_bar3{
+    height: 20px;
+    border-bottom: black 2px solid;
+    transform: translate(-39%,151%) rotate(270deg);
+    width: 95px;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.orange{
+    background-color: orange;
+}
+.green{
+    background-color: green;
+}
+.purple{
+    background-color: purple;
+}
+.purple2{
+    background-color: rebeccapurple;
+}
+.blue{
+    background-color: steelblue;
+}
+.sky_blue{
+    background-color: skyblue;
+}
+.fa-question{
+    font-size: 70px;
+    color: blue;
+}
+.fa-subway{
+    font-size: 50px;
+}
+.fa-tint{
+    font-size: 70px;
+    color: blue;
+
+}
+.fa-gavel{
+    font-size: 70px;
+    color: brown;
+    transform: rotate(135deg);
+}
+.rotate_225{
+    transform: translate(-29%, -128%) rotate(225deg);
+}
+.jail{
+    transform: translate(31%, 30%) rotate(225deg);
+}
+
+
+.fa-car-alt{
+    font-size: 70px;
+    color: red;
+    transform: rotate(135deg);
+
+}
+.free{
+    transform: translate(25%, 570%) rotate(135deg);
+}
+.parking{
+    transform: translate(-26%, -570%) rotate(135deg);
+
+}
+
+.rotate_270{
+    transform: translate(-14%,3%) rotate(270deg);
+}
+.rotate_90{
+    transform:translate(10%, 2%) rotate(90deg);
+}
+.community_chest1{
+    transform: translate(35%,76%) rotate(90deg);
+}
+.community_chest2{
+    transform: translate(-35%,76%) rotate(270deg);
+}
+.pennsylvania_railroad1{
+    transform: translate(35%,81%) rotate(90deg);
+}
+.shortline1{
+    transform: translate(-38%,201%) rotate(270deg);
+}
+.electric_company1{
+    transform: translate(35%,81%) rotate(90deg);
+}
+.lucky_270{
+    transform: translate(-38%,201%) rotate(270deg);
+}
+.luxury_tax1{
+    transform: translate(-38%,91%) rotate(270deg);
+
+}
+.size{
+    font-size: 8px;
+}
+.cm_middle{
+    border: black dashed 1px;
+    width: 200px;
+    height: 150px;
+    transform: translate(43%,69%) rotate(135deg);
+}
+.lucky_middle{
+    border: black dashed 1px;
+    width: 200px;
+    height: 150px;
+    transform: translate(185%,395%) rotate(135deg);
+}
+
+.fa-box{
+    font-size: 50px;
+    color: skyblue;
+}
+.cm90{
+    transform: translate(0%,-50%) rotate(90deg);
+}
+.cm270{
+    transform: translate(0%,-50%) rotate(270deg);
+}
+.train90{
+    transform: translate(-15%,-50%) rotate(90deg);
+}
+.train270{
+    transform: translate(0%,-30%) rotate(270deg);
+}
+.lucky270{
+    transform: translate(0%,-30%) rotate(270deg);
+    color: red;
+}
+.fa-lightbulb{
+    transform: translate(-15%,-50%) rotate(90deg);
+    color: yellow;
+    font-size: 50px;
+}
+.fa-gem{
+    transform: translate(0%,-50%) rotate(270deg);
+    color: black;
+    font-size: 50px;
+}
+.cm_title{
+    transform: translate(-1%,-194%);
+}
+.lucky_title{
+    transform: translate(-1%,623%) rotate(180deg);
+}
+.go_title{
+    font-size: 60px;
+    color: red;
+    transform: translate(-2%,-61%) rotate(315deg);
+}
+
+.collect_rotate{
+    transform: translate(-27%,50%) rotate(315deg);
+}
+.fa-arrow-left{
+    color: red;
+    font-size: 30px;
+    transform: translate(-175%,-275%);
+}
+.orange_jail{
+    background-color: orange;
+    width: 75px;
+    height: 75px;
+    transform: translate(60%,-1%);
+}
+.fa-bars{
+    border: black solid 2px;
+    font-size: 40px;
+    transform: rotate(135deg) translate(-29%,27%);
+}
+.in{
+    transform: rotate(45deg) translate(20%,-115%);
+}
+.jail1{
+    transform: rotate(45deg) translate(-54%,-45%);
+}
+.color_red{
+    color: red;
+}
+.just{
+    transform: rotate(90deg) translate(-45%,185%);
+}
+.visiting{
+    transform: translate(17%,-211%);
+}
+.price1{
+    transform: translate(0%,586%);
+}
+.price2{
+    transform: translate(-44%,-359%) rotate(90deg);
+}
+.cm_instruction1{
+    transform: rotate(90deg) translate(-54%,207%);
+}
+.pr{
+    transform: rotate(90deg) translate(-50%,778%);
+}
+.ec{
+    transform: rotate(90deg) translate(-50%,778%);
+}
+.price3{
+    transform: translate(45%,-366%) rotate(270deg);
+}
+.cm_instruction2{
+    transform: rotate(270deg) translate(52%,234%);
+}
+.sl{
+    transform: rotate(270deg) translate(38%,778%);
+}
+.lt{
+    transform: rotate(270deg) translate(50%,778%);
+}
+.price4{
+    transform: translate(0%,558%);
+}
+.price5{
+    transform: translate(0%,778%);
+}
+.cm_instruction3{
+    transform: translate(0%,-20%);
+}
